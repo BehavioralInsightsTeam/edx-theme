@@ -1,7 +1,9 @@
 @import 'bourbon/bourbon';
 
-$green: #61D3CB;
+$black: #231F20;
+$white: #EFEFEF;
 
+$green: #61D3CB;
 $green-l1: tint($green,20%);
 $green-l2: tint($green,40%);
 $green-l3: tint($green,60%);
@@ -18,7 +20,24 @@ $green-u1: desaturate($green,15%);
 $green-u2: desaturate($green,30%);
 $green-u3: desaturate($green,45%);
 
-$blue: #E05430;
+$orange: #E05430;
+$orange-l1: tint($orange,20%);
+$orange-l2: tint($orange,40%);
+$orange-l3: tint($orange,60%);
+$orange-l4: tint($orange,80%);
+$orange-l5: tint($orange,90%);
+$orange-d1: shade($orange,20%);
+$orange-d2: shade($orange,40%);
+$orange-d3: shade($orange,60%);
+$orange-d4: shade($orange,80%);
+$orange-s1: saturate($orange,15%);
+$orange-s2: saturate($orange,30%);
+$orange-s3: saturate($orange,45%);
+$orange-u1: desaturate($orange,15%);
+$orange-u2: desaturate($orange,30%);
+$orange-u3: desaturate($orange,45%);
+
+$blue: #25305D;
 $blue-l1: tint($blue,20%);
 $blue-l2: tint($blue,40%);
 $blue-l3: tint($blue,60%);
@@ -40,18 +59,31 @@ $blue-t2: rgba($blue, 0.50);
 $blue-t3: rgba($blue, 0.75);
 
 $homepage-bg-image: url('/static/images/banner.jpg');
-$header-bg: #eee;
-$footer-bg: #eee;
+$header-bg: $white;
+$footer-bg: $white;
 
-$link-color: $green;
-$link-color-d1: $green;
-$link-hover: $green-l1;
-$button-color: $green;
-$action-primary-bg: $green;
-$action-primary-shadow: $green-d2;
-$action-primary-focused-bg: $green-d1;
-$action-primary-active-bg: $green-l2;
-$action-primary-active-fg: $green-d1;
-$action-primary-active-shadow: $green-d2;
-$action-primary-active-focused-fg: $green-d4;
-$action-primary-active-focused-shadow: $green-d3;
+$link-color: $blue;
+$link-hover: $blue-l1;
+
+$nav-global-color: $green;
+$nav-global-hover: $green-l1;
+
+$action-primary-fg: $white;
+$action-primary-bg: $orange;
+$action-primary-shadow: $orange-d2;
+$action-primary-focused-bg: $orange;
+$action-primary-active-bg: $orange;
+$action-primary-active-fg: $white;
+$action-primary-active-shadow: $orange-d2;
+$action-primary-active-focused-fg: $orange-d3;
+$action-primary-active-focused-shadow: $orange-d2;
+
+$nav-btn-fg: $green;
+$nav-btn-bg: $white;
+$nav-btn-shadow: $green;
+$nav-btn-focused-bg: $green-d4;
+$nav-btn-active-bg: $green;
+$nav-btn-active-fg: $white;
+$nav-btn-active-shadow: $green-d2;
+$nav-btn-active-focused-fg: $white;
+$nav-btn-active-focused-shadow: $green-d2;
