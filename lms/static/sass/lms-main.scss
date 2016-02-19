@@ -27,19 +27,16 @@ header.global {
     }
 }
 
+// Content wrapper
 .content-wrapper {
-    background: #fff;
+  background: #fff;
 }
 
+// Dashboard page
 .dashboard {
-    .profile-sidebar { 
-	border-color: $link-color;
+    .profile-sidebar {
+      border-color: $link-color;
     }
-}
-
-input[type="submit"],
-input[type="button"], button, .button {
-    text-shadow: none;
 }
 
 // Logistration page.
@@ -101,3 +98,10 @@ input[type="button"], button, .button {
 .course-info .container nav a {
   text-transform: none;
 }
+
+// Don't shadow the button text
+input[type="submit"],
+input[type="button"], button, .button {
+    text-shadow: none;
+}
+
