@@ -1,6 +1,6 @@
 @import 'bourbon/bourbon';
 
-$green: #20ac4e;
+$green: #61D3CB;
 
 $green-l1: tint($green,20%);
 $green-l2: tint($green,40%);
@@ -18,7 +18,7 @@ $green-u1: desaturate($green,15%);
 $green-u2: desaturate($green,30%);
 $green-u3: desaturate($green,45%);
 
-$blue: $green;
+$blue: #E05430;
 $blue-l1: tint($blue,20%);
 $blue-l2: tint($blue,40%);
 $blue-l3: tint($blue,60%);
