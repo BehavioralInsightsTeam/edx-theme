@@ -1,2 +1,24 @@
 @import 'overrides';
 @import 'lms/static/sass/lms-course';
+
+body.view-in-course {
+    background-color: $white;
+}
+header.global.slim {
+    nav {
+        height: 48px;
+    }
+    h1.logo {
+        margin: 0;
+    }
+    h1.logo:before,
+    h1.logo:after {
+        background: none;
+    }
+    .nav-wrapper h1.logo img {
+        height: 46px;
+    }
+    h2.course-header {
+        width: auto;
+    }
+}
