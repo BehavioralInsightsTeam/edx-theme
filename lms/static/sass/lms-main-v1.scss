@@ -1,46 +1,5 @@
+@import 'lms/static/sass/lms-main-v1';
 @import 'overrides';
-@import 'lms/static/sass/lms-main';
-
-footer .references {
-  text-align: right;
-}
-
-.home > header {
-    .outer-wrapper {
-        margin: 45px auto;
-    }
-
-    .title {
-        background-color: rgba(255, 255, 255, 0.9);
-    }
-}
-
-header.global {
-    .nav-global {
-        li a {
-            color: $nav-global-color;
-
-            &:hover, &:active, &:focus {
-              color: $nav-global-hover;
-            }
-        }
-    }
-    .nav-wrapper {
-        padding: 8px 0 0 0;
-    }
-}
-
-// Content wrapper
-.content-wrapper {
-  background: #fff;
-}
-
-// Dashboard page
-.dashboard {
-    .profile-sidebar {
-      border-color: $link-color;
-    }
-}
 
 // Logistration page.
 .login-register {
@@ -96,15 +55,3 @@ header.global {
     padding-bottom: 25px;
   }
 }
-
-// Don't lowercase course about navigation links
-.course-info .container nav a {
-  text-transform: none;
-}
-
-// Don't shadow the button text
-input[type="submit"],
-input[type="button"], button, .button {
-    text-shadow: none;
-}
-

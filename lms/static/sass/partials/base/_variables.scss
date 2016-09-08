@@ -1,0 +1,81 @@
+@import 'lms/static/sass/partials/base/variables';
+
+$bit-primary-color: #e05430;  // orange
+$bit-secondary-color: #61d3cb;  // blue
+
+$custom-primary-color: $bit-primary-color;
+$custom-secondary-color: $bit-secondary-color;
+
+$custom-primary-color-l1: tint($custom-primary-color,20%);
+$custom-primary-color-l2: tint($custom-primary-color,40%);
+$custom-primary-color-l3: tint($custom-primary-color,60%);
+$custom-primary-color-l4: tint($custom-primary-color,80%);
+$custom-primary-color-l5: tint($custom-primary-color,90%);
+$custom-primary-color-d1: shade($custom-primary-color,20%);
+$custom-primary-color-d2: shade($custom-primary-color,40%);
+$custom-primary-color-d3: shade($custom-primary-color,60%);
+$custom-primary-color-d4: shade($custom-primary-color,80%);
+$custom-primary-color-s1: saturate($custom-primary-color,15%);
+$custom-primary-color-s2: saturate($custom-primary-color,30%);
+$custom-primary-color-s3: saturate($custom-primary-color,45%);
+$custom-primary-color-u1: desaturate($custom-primary-color,15%);
+$custom-primary-color-u2: desaturate($custom-primary-color,30%);
+$custom-primary-color-u3: desaturate($custom-primary-color,45%);
+
+$custom-secondary-color-l1: tint($custom-secondary-color,20%);
+$custom-secondary-color-l2: tint($custom-secondary-color,40%);
+$custom-secondary-color-l3: tint($custom-secondary-color,60%);
+$custom-secondary-color-l4: tint($custom-secondary-color,80%);
+$custom-secondary-color-l5: tint($custom-secondary-color,90%);
+$custom-secondary-color-d1: shade($custom-secondary-color,20%);
+$custom-secondary-color-d2: shade($custom-secondary-color,40%);
+$custom-secondary-color-d3: shade($custom-secondary-color,60%);
+$custom-secondary-color-d4: shade($custom-secondary-color,80%);
+$custom-secondary-color-s1: saturate($custom-secondary-color,15%);
+$custom-secondary-color-s2: saturate($custom-secondary-color,30%);
+$custom-secondary-color-s3: saturate($custom-secondary-color,45%);
+$custom-secondary-color-u1: desaturate($custom-secondary-color,15%);
+$custom-secondary-color-u2: desaturate($custom-secondary-color,30%);
+$custom-secondary-color-u3: desaturate($custom-secondary-color,45%);
+
+$action-primary-bg: $custom-primary-color;
+$action-primary-fg: $white;
+$action-primary-shadow: $custom-primary-color-d4;
+$action-primary-focused-bg: $custom-primary-color-d1;
+$action-primary-focused-fg: $white;
+$action-primary-active-bg: $custom-primary-color;
+$action-primary-active-fg: $custom-primary-color-d3;
+$action-primary-active-shadow: $custom-primary-color-d2;
+$action-primary-active-focused-fg: $custom-primary-color-d4;
+$action-primary-active-focused-shadow: $custom-primary-color-d3;
+$action-primary-disabled-bg: $m-gray-d3;
+$action-prmary-disabled-fg: $white;
+
+$bit-link-color: #25305d;  // dark blue-ish
+
+$link-color: $bit-link-color;
+$link-color-d1: shade($bit-link-color,20%);
+$link-hover: tint($bit-link-color,20%);
+
+$site-status-color: $pink;
+$button-color: $custom-primary-color;
+
+$nav-global-color: $custom-secondary-color;
+$nav-global-hover: $custom-secondary-color-l1;
+
+$nav-btn-fg: $custom-secondary-color;
+$nav-btn-bg: $white;
+$nav-btn-shadow: $custom-secondary-color;
+$nav-btn-focused-bg: $custom-secondary-color-d4;
+$nav-btn-active-bg: $custom-secondary-color;
+$nav-btn-active-fg: $white;
+$nav-btn-active-shadow: $custom-secondary-color-d2;
+$nav-btn-active-focused-fg: $white;
+$nav-btn-active-focused-shadow: $custom-secondary-color-d2;
+
+$header-graphic-super-color: $custom-primary-color-d1;
+
+$homepage-bg-image: url('../images/banner.jpg');
+$login-banner-image: none;
+$register-banner-image: none;
+$passwordreset-banner-image: none;
