@@ -1,3 +1,4 @@
+@import 'base/variables-ltr';
 @import 'lms/static/sass/lms-main-v1';
 @import 'overrides';
 
@@ -63,4 +64,29 @@
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+.global-header .nav-links .secondary {
+  a.register-btn, a.sign-in-btn{
+    box-shadow: 0 2px 1px 0 $action-primary-shadow;
+    background: $action-primary-bg;
+    color: $action-primary-fg;
+    border: 0px;
+
+    &:hover, &:focus {
+      background: $action-primary-focused-bg;
+      color: $action-primary-fg;
+    }
+
+    &.current, &.active {
+      box-shadow: inset 0 2px 1px 1px $action-primary-active-shadow;
+      background: $action-primary-active-bg;
+      color: $action-primary-active-fg;
+
+      &:hover, &:active, &:focus {
+        box-shadow: inset 0 2px 1px 1px $action-primary-active-focused-shadow;
+        color: $action-primary-active-focused-fg;
+      }
+    }
+  }
 }

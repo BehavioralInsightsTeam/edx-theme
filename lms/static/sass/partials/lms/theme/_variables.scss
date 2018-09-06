@@ -1,4 +1,6 @@
-@import 'lms/static/sass/partials/base/variables';
+@import 'bourbon/bourbon';
+@import 'edx-bootstrap/sass/open-edx/theme';
+@import 'lms/static/sass/partials/lms/theme/variables-v1';
 
 $bit-primary-color: #e05430;  // orange
 $bit-secondary-color: #61d3cb;  // blue
@@ -48,7 +50,7 @@ $action-primary-active-fg: $custom-primary-color-d3;
 $action-primary-active-shadow: $custom-primary-color-d2;
 $action-primary-active-focused-fg: $custom-primary-color-d4;
 $action-primary-active-focused-shadow: $custom-primary-color-d3;
-$action-primary-disabled-bg: $m-gray-d3;
+$action-primary-disabled-bg: gray;
 $action-prmary-disabled-fg: $white;
 
 $bit-link-color: #25305d;  // dark blue-ish
